@@ -1,0 +1,219 @@
+.parallax-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(0.3);
+    z-index: -1;
+}
+
+body {
+    color: #333;
+    min-height: 100vh;
+    position: relative;
+}
+
+.main-content {
+    background: rgba(255, 255, 255, 0.7) !important;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.navbar {
+    background: rgba(33, 37, 41, 0.95) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar .nav-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.navbar .nav-link:hover {
+    color: #fff !important;
+}
+
+.navbar .btn-link.nav-link {
+    text-decoration: none;
+}
+
+.navbar .user-section {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.7) !important;
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.card-header {
+    background: rgba(33, 37, 41, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-weight: 600;
+}
+
+.form-control, .form-select {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #444;
+}
+
+.btn {
+    text-decoration: none !important;
+    font-weight: 500 !important;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    border-radius: 8px;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-secondary {
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    border-radius: 8px;
+    text-decoration: none !important;
+}
+
+.btn-outline-primary, .btn-outline-danger {
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-width: 2px;
+}
+
+.btn-outline-primary {
+    color: #0d6efd !important;
+    border-color: #0d6efd !important;
+}
+
+.btn-outline-danger {
+    color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important;
+    color: white !important;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: white !important;
+}
+
+.table {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.container-register {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 2rem auto;
+    backdrop-filter: blur(10px);
+}
+
+.container-register h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.container-register hr {
+    margin: 1.5rem 0;
+    opacity: 0.15;
+}
+
+.alert-danger {
+    color: #842029;
+    background-color: rgba(248, 217, 218, 0.7);
+    border-color: rgba(245, 194, 199, 0.7);
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+.container-register .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.container-register input[type="text"],
+.container-register input[type="password"],
+.container-register input[type="email"] {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container-register input[type="text"]:focus,
+.container-register input[type="password"]:focus,
+.container-register input[type="email"]:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container-register .btn {
+    width: auto;
+    min-width: 120px;
+}
+
+.container-register p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.container-register a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.container-register a:hover {
+    text-decoration: underline;
+}
+
+.alert-success {
+    background-color: rgba(209, 231, 221, 0.7);
+    border-color: rgba(186, 219, 204, 0.7);
+    backdrop-filter: blur(10px);
+}
